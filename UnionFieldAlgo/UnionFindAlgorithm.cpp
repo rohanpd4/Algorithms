@@ -1,5 +1,7 @@
 // Union find Algorithm finds cycles in graphs
 //
+//log(n) complexity
+//
 // CPP program to implement Union-Find with union 
 // by rank and path compression. 
 #include <bits/stdc++.h> 
