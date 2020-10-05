@@ -1,3 +1,5 @@
+// Union find Algorithm finds cycles in graphs
+//
 // CPP program to implement Union-Find with union 
 // by rank and path compression. 
 #include <bits/stdc++.h> 
@@ -37,8 +39,7 @@ int find(int i)
     return i; 
 } 
   
-// A function that does union of two nodes x and y 
-// where xr is root node  of x and yr is root node of y 
+// function for union of two nodes 
 void _union(int xr, int yr) 
 { 
     if (size[xr] < size[yr]) // Make yr parent of xr 
